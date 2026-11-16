@@ -1,0 +1,204 @@
+/* ── BrandButton ──────────────────────────────────────────────────
+   Expanding warm gradient fill from left badge to full width.
+   Variation of the DiscoverButton pattern — INDIS themed.
+──────────────────────────────────────────────────────────────── */
+
+.brand-btn {
+  --brand-btn-surface:     color-mix(in srgb, var(--color-white) 94%, transparent);
+  --brand-btn-border:      color-mix(in srgb, var(--color-charcoal) 13%, transparent);
+  --brand-btn-text:        var(--color-charcoal);
+  --brand-btn-active-text: var(--color-white);
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 3.2rem;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid var(--brand-btn-border);
+  border-radius: 0.72rem;
+  background: var(--brand-btn-surface);
+  color: var(--brand-btn-text);
+  cursor: pointer;
+  font-family: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  isolation: isolate;
+  transition:
+    border-color 0.42s var(--ease-out),
+    box-shadow   0.42s var(--ease-out);
+}
+
+.brand-btn:hover,
+.brand-btn:focus-visible {
+  border-color: transparent;
+  box-shadow: 0 16px 42px color-mix(in srgb, var(--color-clay) 22%, transparent);
+}
+
+.brand-btn:focus-visible {
+  outline: 2px solid var(--color-clay);
+  outline-offset: 4px;
+}
+
+/* Warm gradient fill slab */
+.brand-btn__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3.2rem;
+  border-radius: inherit;
+  background: linear-gradient(135deg, var(--color-clay) 0%, var(--color-olive) 100%);
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--color-white) 18%, transparent);
+  transition: width 500ms cubic-bezier(0.65, 0, 0.076, 1);
+  z-index: 0;
+}
+
+.brand-btn:hover .brand-btn__fill,
+.brand-btn:focus-visible .brand-btn__fill {
+  width: 100%;
+}
+
+/* Icon zone inside the slab */
+.brand-btn__icon {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  width: 3.2rem;
+  height: 3.2rem;
+  flex: none;
+  place-items: center;
+  color: var(--color-white);
+  transition: transform 500ms cubic-bezier(0.65, 0, 0.076, 1);
+}
+
+.brand-btn:hover .brand-btn__icon,
+.brand-btn:focus-visible .brand-btn__icon {
+  transform: translateX(5px);
+}
+
+/* Label */
+.brand-btn__text {
+  position: relative;
+  z-index: 1;
+  padding-inline: 0.9rem 1.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  transition: color 340ms ease;
+}
+
+.brand-btn:hover .brand-btn__text,
+.brand-btn:focus-visible .brand-btn__text {
+  color: var(--brand-btn-active-text);
+}
+
+/* ── Variants ── */
+
+/* For dark backgrounds (hero, consultation CTA) */
+.brand-btn--dark {
+  --brand-btn-surface:     color-mix(in srgb, var(--color-white) 10%, transparent);
+  --brand-btn-border:      color-mix(in srgb, var(--color-white) 18%, transparent);
+  --brand-btn-text:        var(--color-white);
+  --brand-btn-active-text: var(--color-white);
+  backdrop-filter: blur(12px);
+}
+
+/* Clay-forward for medium-toned sections */
+.brand-btn--clay {
+  --brand-btn-surface:     color-mix(in srgb, var(--color-clay) 9%, var(--color-white));
+  --brand-btn-border:      color-mix(in srgb, var(--color-clay) 24%, transparent);
+  --brand-btn-text:        var(--color-charcoal);
+  --brand-btn-active-text: var(--color-white);
+}
+
+/* Olive-forward */
+.brand-btn--olive {
+  --brand-btn-surface:     color-mix(in srgb, var(--color-olive) 8%, var(--color-white));
+  --brand-btn-border:      color-mix(in srgb, var(--color-olive) 22%, transparent);
+  --brand-btn-text:        var(--color-charcoal);
+  --brand-btn-active-text: var(--color-white);
+}
+
+/* ── EditorialLink ────────────────────────────────────────────────
+   Flat serif italic text with animated underline.
+   Use as a secondary / ghost action.
+──────────────────────────────────────────────────────────────── */
+
+.editorial-link {
+  --el-text:    var(--color-charcoal);
+  --el-accent:  var(--color-clay);
+
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding-bottom: 0.3rem;
+  color: var(--el-text);
+  font-family: var(--font-serif);
+  font-size: clamp(1rem, 0.92rem + 0.22vw, 1.18rem);
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+  cursor: pointer;
+  background: none;
+  border: none;
+  transition: color 0.32s var(--ease-out);
+}
+
+.editorial-link:hover {
+  color: var(--el-accent);
+}
+
+/* Underline bar */
+.editorial-link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1.5px;
+  width: 100%;
+  background: var(--el-accent);
+  transform-origin: left center;
+  transform: scaleX(0.22);
+  transition: transform 0.44s cubic-bezier(0.65, 0, 0.076, 1);
+  border-radius: 999px;
+}
+
+.editorial-link:hover::after {
+  transform: scaleX(1);
+}
+
+/* Arrow */
+.editorial-link__arrow {
+  display: inline-flex;
+  align-items: center;
+  color: var(--el-accent);
+  opacity: 0;
+  transform: translateX(-6px);
+  transition:
+    opacity   0.32s var(--ease-out),
+    transform 0.36s var(--ease-out);
+  flex-shrink: 0;
+}
+
+.editorial-link:hover .editorial-link__arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* For light text (hero, dark sections) */
+.editorial-link--light {
+  --el-text:   color-mix(in srgb, var(--color-white) 76%, transparent);
+  --el-accent: var(--color-sand);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-btn__fill,
+  .brand-btn__icon,
+  .brand-btn__text,
+  .editorial-link::after,
+  .editorial-link__arrow { transition: none; }
+
+  .brand-btn { box-shadow: none !important; }
+}
