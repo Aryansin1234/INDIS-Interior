@@ -1,0 +1,29 @@
+2:"$Sreact.fragment"
+3:"/INDIS-Interior/_next/static/chunks/1ua2kfq9s-me6.js"
+4:"/INDIS-Interior/_next/static/chunks/07undemcnf_0c.js"
+5:"/INDIS-Interior/_next/static/chunks/0mr01ytrzo5dx.js"
+6:I[39756,["$3","$4","$5"],"default"]
+7:I[37457,["$3","$4","$5"],"default"]
+c:"/INDIS-Interior/_next/static/chunks/1kogg8dm0ocfr.js"
+d:I[22016,["$3","$4","$5","$c"],""]
+e:I[85437,["$3","$4","$5","$c"],"Image"]
+f:I[97367,["$3","$4","$5"],"OutletBoundary"]
+10:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[97367,["$3","$4","$5"],"$13"]
+15:"MetadataBoundary"
+16:I[97367,["$3","$4","$5"],"$15"]
+9:X
+9:C
+a:X
+b:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","section",null,{"className":"page-hero","children":["$","div",null,{"className":"container page-hero__inner","children":[["$","p",null,{"className":"eyebrow","children":"Journal"}],["$","h1",null,{"className":"headline","children":"Design notes for considered Indian homes."}],["$","p",null,{"className":"lead","children":"A magazine-inspired editorial area for real published content and future INDIS design guidance."}],null]}]}],["$","section",null,{"className":"section","children":["$","div",null,{"className":"container listing-grid","children":[["$","$Ld","planning-a-functional-modular-kitchen",{"className":"listing-card","href":"/journal/planning-a-functional-modular-kitchen","children":[["$","div",null,{"className":"listing-card__image","children":["$","$Le",null,{"src":"https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1800&q=82","alt":"Modern kitchen with warm cabinetry and stone counter","fill":true,"sizes":"(max-width: 680px) 91vw, (max-width: 1024px) 44vw, 30vw"}]}],["$","span",null,{"children":["Kitchen Planning"," · ","4 min read"]}],["$","h2",null,{"children":"Planning a functional modular kitchen"}],["$","p",null,{"children":"A practical starting point for workflow, storage, lighting, and finish decisions in contemporary Indian homes."}]]}],["$","$Ld","how-lighting-shapes-interior-mood",{"className":"listing-card","href":"/journal/how-lighting-shapes-interior-mood","children":[["$","div",null,{"className":"listing-card__image","children":["$","$Le",null,{"src":"https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82","alt":"Interior detail with art, console, and decorative lighting","fill":true,"sizes":"(max-width: 680px) 91vw, (max-width: 1024px) 44vw, 30vw"}]}],["$","span",null,{"children":["Lighting"," · ","3 min read"]}],["$","h2",null,{"children":"How lighting shapes interior mood"}],["$","p",null,{"children":"Why ceiling details, wall washing, and accent lights can change the way a room feels throughout the day."}]]}],["$","$Ld","making-small-spaces-feel-considered",{"className":"listing-card","href":"/journal/making-small-spaces-feel-considered","children":[["$","div",null,{"className":"listing-card__image","children":["$","$Le",null,{"src":"https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1800&q=82","alt":"Editorial living room with warm neutral materials","fill":true,"sizes":"(max-width: 680px) 91vw, (max-width: 1024px) 44vw, 30vw"}]}],["$","span",null,{"children":["Design Ideas"," · ","4 min read"]}],["$","h2",null,{"children":"Making small spaces feel considered"}],["$","p",null,{"children":"A compact home can still feel generous when storage, scale, light, and material transitions are handled carefully."}]]}]]}]}]],[["$","script","script-0",{"src":"/INDIS-Interior/_next/static/chunks/1kogg8dm0ocfr.js","async":true}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":null,"s":"$a"}}]]
+1:[["children",{"s":"journal","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Journal | INDIS Interiors"}],["$","meta","1",{"name":"description","content":"Read interior design ideas and practical planning articles from INDIS Interiors."}],["$","link","2",{"rel":"canonical","href":"https://indisinteriors.com/"}],["$","meta","3",{"property":"og:title","content":"INDIS Interiors | Interior Designers in Hyderabad"}],["$","meta","4",{"property":"og:description","content":"Elegant, functional, and personalized home interiors by a Hyderabad-based studio with over 15 years of experience."}],["$","meta","5",{"property":"og:url","content":"https://indisinteriors.com/"}],["$","meta","6",{"property":"og:site_name","content":"INDIS Interiors"}],["$","meta","7",{"property":"og:locale","content":"en_IN"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"INDIS Interiors | Interior Designers in Hyderabad"}],["$","meta","11",{"name":"twitter:description","content":"Elegant, functional, and personalized home interiors by a Hyderabad-based studio with over 15 years of experience."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@17","v":null,"s":"$a"}},"a":"$@18","u":"$@19","b":"frfdZirMCoIAfuSFkbhpm"}
+11:null
+19:true
+a:300
+a:C
+18:0
+8:"$undefined"
+17:"$undefined"
+12:"$undefined"

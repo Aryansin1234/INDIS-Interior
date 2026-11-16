@@ -1,0 +1,32 @@
+2:"$Sreact.fragment"
+3:"/INDIS-Interior/_next/static/chunks/1ua2kfq9s-me6.js"
+4:"/INDIS-Interior/_next/static/chunks/07undemcnf_0c.js"
+5:"/INDIS-Interior/_next/static/chunks/0mr01ytrzo5dx.js"
+6:I[39756,["$3","$4","$5"],"default"]
+7:I[37457,["$3","$4","$5"],"default"]
+e:"/INDIS-Interior/_next/static/chunks/1kogg8dm0ocfr.js"
+f:I[22016,["$3","$4","$5","$e"],""]
+10:I[5014,["$3","$4","$5","$e"],"default"]
+11:I[85437,["$3","$4","$5","$e"],"Image"]
+12:I[97367,["$3","$4","$5"],"OutletBoundary"]
+13:"$Sreact.suspense"
+16:"ViewportBoundary"
+17:I[97367,["$3","$4","$5"],"$16"]
+18:"MetadataBoundary"
+19:I[97367,["$3","$4","$5"],"$18"]
+9:X
+9:C
+a:X
+d:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","section",null,{"className":"detail-hero","children":["$","div",null,{"className":"container detail-hero__grid","children":[["$","div",null,{"className":"detail-meta","children":[["$","span",null,{"children":"Awaiting INDIS project photography"}],["$","h1",null,{"className":"headline","children":"Bedroom Retreat Study"}],["$","p",null,{"className":"lead","children":"A quieter bedroom story template for wardrobe planning, lighting atmosphere, finish choices, and real room imagery."}],["$","div",null,{"className":"button-row","children":[["$","$Lf",null,{"className":"btn btn-primary","href":"/contact","children":["Plan a Similar Home",["$","$L10",null,{"icon":{"name":"arrow-up-right","size":24,"node":[["path",{"d":"M7 7h10v10","key":"1tivn9"}],["path",{"d":"M7 17 17 7","key":"1vkiza"}]]},"size":16,"aria-hidden":true}]]}],["$","$Lf",null,{"className":"btn btn-secondary","href":"/projects","children":["All Projects",["$","$L10",null,{"icon":"$d:0:1:d:r:props:children:0:0:props:children:props:children:0:props:children:3:props:children:0:props:children:1:props:icon","size":16,"aria-hidden":true}]]}]]}]]}],["$","div",null,{"className":"detail-hero__image","children":["$","$L11",null,{"src":"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=82","alt":"Calm bedroom with upholstered bed and soft natural light","fill":true,"priority":true,"sizes":"(max-width: 1024px) 91vw, 48vw"}]}]]}]}],["$","section",null,{"className":"detail-body","children":[["$","div",null,{"className":"container detail-body__grid","children":[["$","div",null,{"children":["$","h2",null,{"children":"Case study framework"}]}],["$","div",null,{"className":"content-panel","children":["$","ul",null,{"className":"detail-list","children":[["$","li",null,{"children":[["$","strong",null,{"children":"Category:"}]," ","Bedroom"]}],["$","li",null,{"children":[["$","strong",null,{"children":"Location:"}]," Add only when confirmed by INDIS."]}],["$","li",null,{"children":[["$","strong",null,{"children":"Materials:"}]," Add confirmed materials and finish notes here."]}],["$","li",null,{"children":[["$","strong",null,{"children":"Design considerations:"}]," Add actual planning challenges, storage needs, lighting approach, and execution notes here."]}]]}]}]]}],["$","div",null,{"className":"container detail-gallery","children":[["$","div","https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=82",{"className":"detail-image","children":["$","$L11",null,{"src":"https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=82","alt":"Calm bedroom with upholstered bed and soft natural light","fill":true,"sizes":"(max-width: 680px) 91vw, 44vw"}]}],["$","div","https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82",{"className":"detail-image","children":["$","$L11",null,{"src":"https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1800&q=82","alt":"Interior detail with art, console, and decorative lighting","fill":true,"sizes":"(max-width: 680px) 91vw, 44vw"}]}]]}]]}]],[["$","script","script-0",{"src":"/INDIS-Interior/_next/static/chunks/1kogg8dm0ocfr.js","async":true}]],["$","$L12",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@14"}]}]]}],"p":"$@15","v":null,"s":"$a"}}]]
+b:[["children",{"s":{"n":"slug","t":"d","k":"bedroom-gallery-placeholder","s":[]},"h":96,"d":{"r":["$","$2","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@c","v":"$9","s":"$a"},"c":"$Qd"}]]
+1:[["children",{"s":"projects","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","template":["$","$L7",null,{}]}]]}],"p":"$@8","v":"$9","s":"$a"},"c":"$Qb"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L17",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L19",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Bedroom Retreat Study | INDIS Interiors"}],["$","meta","1",{"name":"description","content":"A quieter bedroom story template for wardrobe planning, lighting atmosphere, finish choices, and real room imagery."}],["$","link","2",{"rel":"canonical","href":"https://indisinteriors.com/"}],["$","meta","3",{"property":"og:title","content":"INDIS Interiors | Interior Designers in Hyderabad"}],["$","meta","4",{"property":"og:description","content":"Elegant, functional, and personalized home interiors by a Hyderabad-based studio with over 15 years of experience."}],["$","meta","5",{"property":"og:url","content":"https://indisinteriors.com/"}],["$","meta","6",{"property":"og:site_name","content":"INDIS Interiors"}],["$","meta","7",{"property":"og:locale","content":"en_IN"}],["$","meta","8",{"property":"og:type","content":"website"}],["$","meta","9",{"name":"twitter:card","content":"summary"}],["$","meta","10",{"name":"twitter:title","content":"INDIS Interiors | Interior Designers in Hyderabad"}],["$","meta","11",{"name":"twitter:description","content":"Elegant, functional, and personalized home interiors by a Hyderabad-based studio with over 15 years of experience."}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1a","v":null,"s":"$a"}},"a":"$@1b","u":"$@1c","b":"frfdZirMCoIAfuSFkbhpm"}
+14:null
+1c:true
+a:300
+a:C
+1b:0
+c:"$undefined"
+8:"$undefined"
+1a:"$undefined"
+15:"$undefined"

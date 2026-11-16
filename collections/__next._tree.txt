@@ -1,0 +1,6 @@
+:HL["/INDIS-Interior/_next/static/chunks/1770m783p_gk4.css","style"]
+:HL["/INDIS-Interior/_next/static/media/75cb990346c55dc4-s.p.40bho2kviej2o.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/INDIS-Interior/_next/static/media/82450a180bcad83c-s.p.0p-wng2nn8o-p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"collections","h":64,"c":"$Q2"}]]
+0:{"b":"frfdZirMCoIAfuSFkbhpm","t":{"t":{"s":"","h":16,"c":"$Q1"}}}
