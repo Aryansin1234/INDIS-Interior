@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { articles, collections, pages, projects, services } from "@/data/site";
 
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = "https://indisinteriors.com";
   const staticPages = pages.map((page) => ({ url: `${base}${page}`, lastModified: new Date() }));
